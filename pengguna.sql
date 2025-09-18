@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 16, 2025 at 04:34 AM
+-- Generation Time: Sep 18, 2025 at 02:46 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -43,24 +43,24 @@ CREATE TABLE `pengguna` (
 INSERT INTO `pengguna` (`id`, `foto`, `nama`, `nim`, `jurusan`, `email`) VALUES
 (1, 'aqua.png', 'Aqua Hoshino', '002411710001', 'IMT', 'aqua02@yahoo.com'),
 (2, 'ruby.png', 'Ruby Hoshino', '005519880001', 'COM', 'r_hoshino@example.com'),
-(3, 'kana.png', 'Kana Arima', '002412710003', 'VCD', 'rimakana@example.com'),
+(3, 'kana.png', 'Kana Arima', '002411710001', 'VCD', 'arimakana@yahoo.com'),
 (4, 'memcho.png', 'Mem-Cho', '002411710003', 'IMT', 'mem@yahoo.com'),
 (5, 'akane.png', 'Akane Kurokawa', '002411710003', 'VCD', 'kurokawa@example.com'),
 (6, 'melt.png', 'Melt Narushima', '005519880002', 'COM', 'shimamelt@example.com'),
 (7, 'minami.png', 'Minami Kotobuki', '005519880003', 'COM', 'kotonami@example.com'),
 (8, 'abiko.png', 'Abiko Samejima', '002412710004', 'VCD', 'bikobiko@yahoo.com'),
 (9, 'frill.png', 'Frill Shiranui', '005519880004', 'COM', 'freenui@example.com'),
-(10, 'yuki.png', 'Yuki Sumi', '002412710005', 'VCD', 'sukiyumi@example.com'),
-(11, 'kengo.png', 'Kengo Morimoto', '002411710001', 'IMT', 'moriken@example.com'),
-(12, 'sakuya.png', 'Sakuya Kamoshida', '002411710003', 'IMT', 'sakushida@example.com'),
-(13, 'taiki.png', 'Taiki Himekawa', '005519880004', 'COM', 'taikawa@example.com'),
-(14, 'yoriko.png', 'Yoriko Kichijou', '002412710004', 'VCD', 'kokijouji@example.com'),
+(10, 'yuki.jpg', 'Yuki Sumi', '002412710005', 'VCD', 'sukiyumi@example.com'),
+(11, 'kengo.jpg', 'Kengo Morimoto', '002411710001', 'IMT', 'moriken@example.com'),
+(12, 'sakuya.jpeg', 'Sakuya Kamoshida', '002411710003', 'IMT', 'sakushida@example.com'),
+(13, 'taiki.jpg', 'Taiki Himekawa', '005519880004', 'COM', 'taikawa@example.com'),
+(14, 'yoriko.jpg', 'Yoriko Kichijouji', '002412710004', 'VCD', 'kokijouji@example.com'),
 (15, 'sarina.png', 'Sarina Tendouji', '005519880005', 'COM', 'sandouji@example.com'),
-(16, 'nobuyuki.png', 'Nobuyuki Kumano', '002411710004', 'IMT', 'kumano@example.com'),
-(17, 'miyako.png', 'Miyako Saitou', '005519880006', 'COM', 'miyakosai@example.com'),
-(18, 'pieyon.png', 'Pieyon', '002411710003', 'IMT', 'pieyon@example.com'),
-(19, 'masaya.png', 'Masaya Kaburagi', '002412710006', 'IMT', 'kaburagi@example.com'),
-(20, 'taishi.png', 'Taishi Gotanda', '002412710007', 'IMT', 'gotanda@example.com');
+(16, 'nobuyuki.jpg', 'Nobuyuki Kumano', '002411710004', 'IMT', 'kumano@example.com'),
+(17, 'miyako.jpg', 'Miyako Saitou', '005519880006', 'COM', 'miyakosai@example.com'),
+(18, 'pieyon.jpg', 'Pieyon', '002411710003', 'IMT', 'pieyon@example.com'),
+(19, 'masaya.jpg', 'Masaya Kaburagi', '002412710006', 'IMT', 'kaburagi@example.com'),
+(20, 'taishi.jpg', 'Taishi Gotanda', '002412710007', 'IMT', 'gotanda@example.com');
 
 --
 -- Indexes for dumped tables
